@@ -3,13 +3,15 @@
 [ext_resource type="Texture2D" uid="uid://bl1ieq4vjynja" path="res://asset/icon.svg" id="1_liy72"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fui21"]
-size = Vector2(125, 126)
+size = Vector2(64, 126)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1.5, 0)
+position = Vector2(-32, 0)
 shape = SubResource("RectangleShape2D_fui21")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-32, 0)
+scale = Vector2(0.5, 1)
 texture = ExtResource("1_liy72")
