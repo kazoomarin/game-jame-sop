@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="playermovement" load_steps=2 format=3 uid="uid://5i487gjqs3ui"]
+
+[ext_resource type="Script" uid="uid://bymav1m6nhluf" path="res://player/movement_player.gd" id="1_nctlv"]
+
+[resource]
+script = ExtResource("1_nctlv")
+speed = 200
+jumb_power = -400
+acc = 1000
+friction = 1000
+gravity = 1
+max_jumb = 2
+dead_zone = 1000
+air_resistance = 200.0
+air_acceration = 400.0
+maxi_camira_left = -600
+lmit_left = 0
+maximal_camira_right = 900
+lmit_right = 0
+camira_mouse_speed = 7
+time_to_look = 2

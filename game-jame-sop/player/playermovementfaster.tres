@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PlayerMovement" load_steps=2 format=3 uid="uid://cql7a5euhlmb"]
+
+[ext_resource type="Script" path="res://player/movement_player.gd" id="1_3vuc1"]
+
+[resource]
+script = ExtResource("1_3vuc1")
+speed = 2000
+jump_power = -1800
+acc = 50
+friction = 70
+gravity = 50
+max_jumb = 2
+dead_zone = 150
+air_resistance = 200.0
+air_acceration = 400.0
+maxi_camira_left = -600
+lmit_left = 0
+maximal_camira_right = 600
+lmit_right = 0
+camira_mouse_speed = 50
+time_to_look = 15
